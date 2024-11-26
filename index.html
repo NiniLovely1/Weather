@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,27 +16,34 @@
   <body>
     <div class="app">
       <header>
-        <form>
+        <form class="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             required
+            class="search-form-input"
             id="search-form-input"
           />
-          <input type="submit" value="Search" />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <form class="search-form" id="search-form"></form>
       <main>
-        <div>
-          <h1 class="weather-city" id="weather-city">Indonesia</h1>
-          <p>
-            Monday 13:16, mist
-            <br />
-            Humidity: 88%, Wind: 3.58km/h
-          </p>
+        <div class="app-data">
+          <div>
+            <h1 class="weather-city" id="weather-city">Indonesia</h1>
+            <p class="current-app-details">
+              Monday 13:16, Mist
+              <br />
+              Humidity: <strong>88%</strong>, Wind: <strong>3.58km/h</strong>
+            </p>
+          </div>
+          <div class="app-temperature-container">
+            <div class="app-icon">☁️</div>
+            <div class="app-temperature">13</div>
+            <div class="app-unit">°C</div>
+          </div>
         </div>
-        <div>☁️ 13°C</div>
       </main>
 
       <footer>
