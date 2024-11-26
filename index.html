@@ -3,36 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Ga+Maamli&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Indonesia</h1>
-        <p>
-          Monday 13:16, mist
-          <br />
-          Humidity: 88%, Wind: 3.58km/h
-        </p>
-      </div>
-      <div>☁️ 13°C</div>
-    </main>
+    <div class="app">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            id="search-form-input"
+          />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <form class="search-form" id="search-form"></form>
+      <main>
+        <div>
+          <h1 class="weather-city" id="weather-city">Indonesia</h1>
+          <p>
+            Monday 13:16, mist
+            <br />
+            Humidity: 88%, Wind: 3.58km/h
+          </p>
+        </div>
+        <div>☁️ 13°C</div>
+      </main>
 
-    <footer>
-      Coded by
-      <a href="https://GitHub.com/NiniLovely1/" target="_blank">Nedra Johnson</a
-      >, open-sourced on
+      <footer>
+        Coded by
+        <a href="https://GitHub.com/NiniLovely1/" target="_blank"
+          >Nedra Johnson</a
+        >, open-sourced on
 
-      <a href="https://github.com/NiniLovely1/Weather">GitHub</a> and website
-      hosted on
+        <a href="https://github.com/NiniLovely1/Weather">GitHub</a> and website
+        hosted on
 
-      <a href="https://ninilovely-weather-app.netlify.app">Netlify</a>
-    </footer>
+        <a href="https://ninilovely-weather-app.netlify.app">Netlify</a>
+      </footer>
+    </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
