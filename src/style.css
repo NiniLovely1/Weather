@@ -21,7 +21,7 @@ body {
 .search-form-input {
   background-color: #f3f1f9;
   border-radius: 5px;
-  width: 500px;
+  width: 600px;
   font-size: 18px;
   padding: 14px;
   border: none;
@@ -31,7 +31,7 @@ body {
   padding: 14px;
   border-radius: 10px;
   color: white;
-  margin: 0 auto;
+  margin-left: 6px;
   font-size: 16px;
 }
 p {
