@@ -6,11 +6,12 @@ body {
 }
 .app {
   background: white;
-  max-width: 700 px;
+  max-width: 700px;
   margin: 40px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 12px;
   padding: 40px;
+  line-height: 48px;
 }
 .header {
   padding: 0 0 30px 0;
@@ -34,14 +35,14 @@ body {
   font-size: 16px;
 }
 p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 main {
   padding: 28px 0;
 }
 .app-temperature {
-  font-size: 70px;
+  font-size: 65px;
 }
 .current-app-details strong {
   line-height: 20px;
@@ -58,14 +59,14 @@ main {
   display: flex;
 }
 .app-icon {
-  font-size: 30px;
-  margin-top: 25px;
+  font-size: 24px;
+  margin-top: 6px;
   margin-left: 15px;
 }
 .app-unit {
-  margin-top: 30px;
+  margin-top: 6px;
   font-size: 25px;
-  margin-left: 5px;
+  margin-left: 3px;
 }
 
 footer {
