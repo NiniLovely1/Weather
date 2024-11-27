@@ -43,7 +43,8 @@ main {
   padding: 28px 0;
 }
 .app-temperature {
-  font-size: 75px;
+  font-size: 85px;
+  margin-top: 8px;
 }
 .current-app-details strong {
   line-height: 10px;
@@ -60,12 +61,12 @@ main {
   display: flex;
 }
 .app-icon {
-  font-size: 20px;
-  margin-top: 12px;
-  margin-left: 15px;
+  width: 48px;
+  height: 65px;
+  margin-top: 16px;
 }
 .app-unit {
-  margin-top: 3px;
+  margin-top: 16px;
   font-size: 20px;
   margin-left: 3px;
 }
