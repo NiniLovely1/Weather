@@ -28,7 +28,7 @@ body {
 }
 .search-form-button {
   background-color: blueviolet;
-  padding: 14px;
+  padding: 16px;
   border-radius: 10px;
   color: white;
   margin-left: 6px;
@@ -61,9 +61,8 @@ main {
   display: flex;
 }
 .app-icon {
-  width: 48px;
-  height: 65px;
-  margin-top: 16px;
+  width: 55px;
+  margin-top: 20px;
 }
 .app-unit {
   margin-top: 16px;
