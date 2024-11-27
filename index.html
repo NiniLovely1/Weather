@@ -11,12 +11,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
     <title>Weather App</title>
   </head>
   <body>
     <div class="app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
@@ -27,7 +29,6 @@
           <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
-      <form class="search-form" id="search-form"></form>
       <main>
         <div class="app-data">
           <div>
