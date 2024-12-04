@@ -70,6 +70,37 @@ main {
   margin-left: 3px;
 }
 
+.app-forecast {
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-around;
+}
+.app-forecast-date {
+  text-align: center;
+  color: #27214266;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 5px;
+  list-style: none;
+}
+.app-forecast-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.app-forecast-temperatures {
+  text-align: center;
+  color: #d63384;
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+.app-forecast-temperature {
+  padding: 0 17px;
+}
+
 h1 {
   font-size: 45px;
 }
